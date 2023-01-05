@@ -10,6 +10,7 @@ class MemberServiceTest {
 
     MemberService memberService = new MemberServiceImpl();
 
+    
     @Test
     public void join() throws Exception {
         //given
