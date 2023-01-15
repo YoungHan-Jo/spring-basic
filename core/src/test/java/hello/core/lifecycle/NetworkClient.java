@@ -11,7 +11,7 @@ public class NetworkClient {
         System.out.println("생성자 호출, url = " + url);
 
     }
-
+ 
     public void setUrl(String url) {
         this.url = url;
     }
@@ -37,7 +37,7 @@ public class NetworkClient {
         connect();
         call("초기화 연결 메시지");
     }
-    
+
     @PreDestroy
     public void close() throws Exception {
         System.out.println("NetworkClient.close");
